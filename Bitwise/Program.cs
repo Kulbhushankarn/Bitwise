@@ -14,6 +14,9 @@ namespace Bitwise
             string userInput;
 
             userInput = Console.ReadLine();
+            Console.WriteLine("Name: " + userInput);
+
+            userInput = Console.ReadLine();
             int a = Convert.ToInt32(userInput);
             Console.WriteLine(a);
 
